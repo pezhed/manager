@@ -9,12 +9,7 @@ import reducers  from './reducer/index';
 class App extends Component {
     componentWillMount() {
         const config = {
-            apiKey: "AIzaSyAdOOyhy8W1otGeEUh4MpFVw4Brok1eQvM",
-            authDomain: "manager-92422.firebaseapp.com",
-            databaseURL: "https://manager-92422.firebaseio.com",
-            projectId: "manager-92422",
-            storageBucket: "manager-92422.appspot.com",
-            messagingSenderId: "388049239395"
+            
           };
           firebase.initializeApp(config);
     }
